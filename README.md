@@ -5,7 +5,6 @@
   - java 17 install
   - apache tomcat install, unzip tar file & setup user in conf
 
-  ``
         <role rolename="manager-gui"/>
         <role rolename="manager-script"/>
         <role rolename="manager-jmx"/>
@@ -14,7 +13,7 @@
         <user username="admin" password="admin123" roles="manager-gui,admin-gui,manager"/>
         <role rolename="deployer" password="deployer" roles="manager-script"/>
 
-  ``
+
   - using this  sudo find / -name context.xml find context.xml file and in that comment valve code
 
   - jenkins install
@@ -70,6 +69,7 @@ pipeline {
         }
     }
 }
+
 
 
 
