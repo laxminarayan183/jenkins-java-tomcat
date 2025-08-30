@@ -11,7 +11,7 @@
         <role rolename="manager-jmx"/>
         <user username="tomcat" password="tomcat" roles="manager-gui"/>
         <role rolename="admin-gui"/>
-        <user username="admin" password="admin123" roles="manager-gui,admin-gui,manager>
+        <user username="admin" password="admin123" roles="manager-gui,admin-gui,manager"/>
         <role rolename="deployer" password="deployer" roles="manager-script"/>
 
   ``
@@ -70,5 +70,6 @@ pipeline {
         }
     }
 }
+
 
 
